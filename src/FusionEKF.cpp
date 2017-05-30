@@ -64,10 +64,7 @@ FusionEKF::~FusionEKF() {}
 
 void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
-  cout << "carlos:start:type" << measurement_pack.sensor_type_ << M_PI << endl;
-
-
-
+ 
   /*****************************************************************************
    *  Initialization
    ****************************************************************************/
